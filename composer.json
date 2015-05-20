@@ -1,0 +1,27 @@
+{
+  "name": "xmltravflex/httpcurl",
+  "description": "cURL class for PHP",
+  "keywords": ["dot", "curl"],
+  "homepage": "https://github.com/xmltravflex/httpcurl",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+      "name": "Kawin Glomjai",
+      "homepage": "https://github.com/xmltravflex"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*",
+    "squizlabs/php_codesniffer": "~2.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "Httpcurl": "src/"
+    }
+  }
+}
