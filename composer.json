@@ -1,7 +1,7 @@
 {
   "name": "xmltravflex/httpcurl",
   "description": "cURL class for PHP",
-  "keywords": ["dot", "curl"],
+  "keywords": ["dot", "curl","http","httpcurl"],
   "homepage": "https://github.com/xmltravflex/httpcurl",
   "type": "library",
   "license": "MIT",
