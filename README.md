@@ -1,20 +1,20 @@
-# httpcurl
-#How to use
+#httpcurl
 
 This program was Chain design pattern.
 
-#Install
-composer require xmltravflex/httpcurl dev-master
-after install, write your require 'vendor/autoload.php';
+## Installation
 
-#Example
-$oHttp = Httpcurl/Httpcurl::open('url');\r\n
-$oHttp->setRequestHeader('Content-Type','text/xml','SOAPAction':'urlsoape/action');\
-$oHttp->setCurlOption(CURLOPT_HEADER,true);\n
-$response = $oHttp->send(array($requestxmlstring));\n
+1. enter command : composer require xmltravflex/httpcurl dev-master
+2. after install, write your require 'vendor/autoload.php'.
 
-#Avaiable methods.
-static : open($url,$isDebug=false)\n
-public : setRequestHeader(param1,param2);\n
-public : setCurlOption(param1,param2);\n
-public : send(array param);
+##Example
+ - $oHttp = Httpcurl/Httpcurl::open('url');
+ - $oHttp->setRequestHeader('Content-Type','text/xml','SOAPAction':'urlsoape/action');
+ - $oHttp->setCurlOption(CURLOPT_HEADER,true);
+ - $response = $oHttp->send(array($requestxmlstring));
+
+##Avaiable methods.
+ - static : open($url,$isDebug=false)
+ - public : setRequestHeader(param1,param2);
+ - public : setCurlOption(param1,param2);
+ - public : send(array param);
