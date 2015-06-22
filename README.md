@@ -8,8 +8,8 @@ composer require xmltravflex/httpcurl dev-master
 after install, write your require 'vendor/autoload.php';
 
 #Example
-$oHttp = Httpcurl/Httpcurl::open('url');\n
-$oHttp->setRequestHeader('Content-Type','text/xml','SOAPAction':'urlsoape/action');\n
+$oHttp = Httpcurl/Httpcurl::open('url');\r\n
+$oHttp->setRequestHeader('Content-Type','text/xml','SOAPAction':'urlsoape/action');\
 $oHttp->setCurlOption(CURLOPT_HEADER,true);\n
 $response = $oHttp->send(array($requestxmlstring));\n
 
