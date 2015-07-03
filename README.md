@@ -5,7 +5,7 @@ This program was Chain design pattern.
 ## Installation
 
 1. enter command : composer require xmltravflex/httpcurl dev-master
-2. after install, write your require 'vendor/autoload.php'.
+2. after install, require 'vendor/autoload.php'.
 
 ##Example
  - $oHttp = Httpcurl/Httpcurl::open('url');
