@@ -1,6 +1,5 @@
 #httpcurl
-
-This program was Chain design pattern.
+Httpcurl using multi-thread curl request to server.
 
 ## Installation
 
