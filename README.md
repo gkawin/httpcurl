@@ -13,7 +13,7 @@ This program was Chain design pattern.
  - $oHttp->setCurlOption(CURLOPT_HEADER,true);
  - $response = $oHttp->send(array($requestxmlstring));
 
-##Avaiable methods.
+##Available methods.
  - static : open($url,$isDebug=false)
  - public : setRequestHeader(param1,param2);
  - public : setCurlOption(param1,param2);
