@@ -12,6 +12,12 @@ class Httpcurl
     private $arrReqestHeader = array();
     private $arrCurlOptions = array();
 
+    /**
+     * @assert ("", false) == test
+     * @param type $url
+     * @param type $devAccess
+     * @return \Httpcurl\Httpcurl
+     */
     public static function open($url = "", $devAccess = FALSE)
     {
         /*
